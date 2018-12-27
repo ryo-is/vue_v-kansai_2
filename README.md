@@ -1,6 +1,6 @@
 # vue-slideshow
 
-v-kansai Vue.js/Nuxt.js meetup #1での発表スライドです。
+v-kansai Vue.js/Nuxt.js meetup #2での発表スライドです。
 
 ## SetUp
 
