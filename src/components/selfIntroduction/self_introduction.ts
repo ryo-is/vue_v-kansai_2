@@ -14,6 +14,6 @@ export default class Introduction extends Vue {
   communityText: string = "v-kansai / JAWS-UG / Node学園";
   transitionPageInfo: transitionPageInfoType = {
     preb: "/",
-    next: "/"
+    next: "/mainContents/summary"
   };
 }
