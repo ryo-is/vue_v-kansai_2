@@ -18,64 +18,29 @@ export default class SectionTitle extends Vue {
   }
 
   contents: pageContentsType = {
-    vis: {
-      mainText: "IoT.kyoto VIS",
-      prebLink: "/summary/page1",
-      nextLink: "/mainContents/vis_1"
+    why: {
+      mainText: "なぜ布教活動？",
+      prebLink: "/mainContents/summary",
+      nextLink: "/mainContents/why_1"
     },
-    vue: {
-      mainText: "なぜ Vue なのか",
-      prebLink: "/mainContents/vis_4",
-      nextLink: "/mainContents/vue_1"
+    action: {
+      mainText: "なにをしたか",
+      prebLink: "/mainContents/why_6",
+      nextLink: "/mainContents/action_1"
     },
-    benefit: {
-      mainText: "Vueにした恩恵",
-      prebLink: "/mainContents/vue_3",
-      nextLink: "/mainContents/benefit_1"
+    result: {
+      mainText: "結果というか中間報告",
+      prebLink: "/mainContents/action_2",
+      nextLink: "/mainContents/result_1"
     },
-    hardships: {
-      mainText: "ちょっとした苦労話とか",
-      prebLink: "/mainContents/benefit_1",
-      nextLink: "/sectionTitle/webpack"
-    },
-    webpack: {
-      mainText: "Webpack周りの設定",
-      prebLink: "/sectionTitle/hardships",
-      nextLink: "/mainContents/webpack_1"
-    },
-    reload: {
-      mainText: "画面のリロード対策",
-      prebLink: "/mainContents/webpack_2",
-      nextLink: "/mainContents/reload_1"
-    },
-    aws: {
-      mainText: "AWSリソースへのアクセス",
-      prebLink: "/mainContents/reload_3",
-      nextLink: "/mainContents/aws_1"
-    },
-    spa: {
-      mainText: "SPA + CF + S3 の罠",
-      prebLink: "/mainContents/aws_3",
-      nextLink: "/mainContents/spa_1"
-    },
-    task: {
-      mainText: "今後の課題",
-      prebLink: "/mainContents/spa_5",
-      nextLink: "/mainContents/task_1"
-    },
-    summary: {
-      mainText: "まとめ",
-      prebLink: "/mainContents/task_1",
-      nextLink: "/mainContents/summary_1"
-    },
-    good_vue: {
-      mainText: "Vueは素晴らしい！！！",
-      prebLink: "/mainContents/summary_1",
-      nextLink: "/sectionTitle/end"
+    hereafter: {
+      mainText: "今後の目標",
+      prebLink: "/mainContents/result_1",
+      nextLink: "/mainContents/hereafter_1"
     },
     end: {
-      mainText: "おわり",
-      prebLink: "/sectionTitle/good_vue",
+      mainText: "EOF",
+      prebLink: "/mainContents/hereafter_1",
       nextLink: "/"
     }
   };

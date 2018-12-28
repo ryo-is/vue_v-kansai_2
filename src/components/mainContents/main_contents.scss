@@ -1,59 +1,15 @@
 .main-contents {
-  .apply-content {
-    font-size: 3.8rem;
-    line-height: 12vh;
-    margin: 5vh 5vw 0;
-    text-align: left;
+  .unique-page {
+    font-size: 4.5rem;
+    margin: 5vh auto 0;
+    width: 90vw;
 
-    &.change-pages-links {
-      margin-top: 0;
-    }
+    .image-area {
+      margin: 30px auto 0;
+      width: 50vw;
 
-    ul {
-      margin: 0;
-
-      li {
-        padding-left: 1rem;
-      }
-    }
-
-    .image {
-      margin: auto;
-      width: 60vw;
-    }
-
-    .page-capture {
-      margin: 5vh auto 0;
-      width: 80vw;
-    }
-
-    .link-area {
-      left: 0;
-      position: absolute;
-      top: 0;
-      width: 100vw;
-
-      .link-area-common {
-        height: 100vh;
-
-        .text-area {
-          align-items: center;
-          display: flex;
-          font-size: 5rem;
-          font-weight: bold;
-          height: 100%;
-          line-height: 20vh;
-          justify-content: center;
-          text-align: center;
-        }
-      }
-
-      .preb-link-area {
-        background-color: rgba(#FF9933, .5);
-      }
-
-      .next-link-area {
-        background-color: rgba(#0099FF, .5);
+      img {
+        width: 100%;
       }
     }
   }
