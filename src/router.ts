@@ -1,9 +1,9 @@
 import Vue from "vue";
 import Router from "vue-router";
-import Title from "./components/title/Title.vue";
-import SelfIntroduction from "./components/selfIntroduction/SelfIntroduction.vue";
-import MainContents from "./components/mainContents/MainContents.vue";
-import SectionTitle from "./components/sectionTitle/SectionTitle.vue";
+import Title from "./views/title/Title.vue";
+import SelfIntroduction from "./views/selfIntroduction/SelfIntroduction.vue";
+import MainContents from "./views/mainContents/MainContents.vue";
+import SectionTitle from "./views/sectionTitle/SectionTitle.vue";
 
 Vue.use(Router);
 

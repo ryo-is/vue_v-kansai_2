@@ -1,6 +1,6 @@
 import { Component, Vue } from "vue-property-decorator";
 import { transitionPageInfoType } from "@/types";
-import PageTitle from "../parts/pageTitle/PageTitle.vue";
+import PageTitle from "@/components/pageTitle/PageTitle.vue";
 
 @Component({
   components: {

@@ -1,7 +1,7 @@
 import { Component, Vue, Watch } from "vue-property-decorator";
 import { transitionPageInfoType, pageContentsType } from "@/types";
-import PageTitle from "../parts/pageTitle/PageTitle.vue";
-import PageContent from "../parts/pageContent/PageContent.vue";
+import PageTitle from "@/components/pageTitle/PageTitle.vue";
+import PageContent from "@/components/pageContent/PageContent.vue";
 
 @Component({
   components: {
@@ -77,6 +77,12 @@ export default class MainContents extends Vue {
       mainText: "",
       mainTitle: "なにをしたか",
       prebLink: "/mainContents/action_1",
+      nextLink: "/mainContents/action_3"
+    },
+    action_3: {
+      mainText: "",
+      mainTitle: "なにをしたか",
+      prebLink: "/mainContents/action_2",
       nextLink: "/sectionTitle/result"
     },
     result_1: {

@@ -3,7 +3,7 @@ import { transitionPageInfoType } from "@/types";
 
 @Component({})
 export default class Title extends Vue {
-  titleText: string = "Vue.js布教活動報告";
+  titleText: string = "Vue.jsの布教活動をしている話";
   transitionPageInfo: transitionPageInfoType = {
     preb: "/sectionTitle/end",
     next: "/selfIntroduction"

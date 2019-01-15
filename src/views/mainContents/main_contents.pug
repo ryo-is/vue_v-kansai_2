@@ -4,4 +4,6 @@
     include ./views/presentation
   .unique-page(v-else-if="pageName==='action_2'")
     include ./views/handson
+  .unique-page(v-else-if="pageName==='action_3'")
+    include ./views/demo
   PageContent(:content-text="pageContentText" v-else)
