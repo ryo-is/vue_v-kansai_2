@@ -3,11 +3,28 @@
 #app {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: $base-back-color;
-  color: $base-font-color;
   font-family: "Hiragino Maru Gothic ProN", Helvetica, Arial, sans-serif;
   min-height: 100vh;
   text-align: center;
+
+  &.default-mode {
+    background-color: $base-back-color;
+    color: $base-font-color;
+  }
+
+  &.dark-mode {
+    background-color: $base-font-color;
+    color: $base-back-color;
+  }
+
+  .change-color-area {
+    bottom: 12px;
+    font-size: 32px;
+    opacity: .7;
+    position: absolute;
+    right: 12px;
+    z-index: 1001;
+  }
 
   .transition-page-area {
     height: 100vh;

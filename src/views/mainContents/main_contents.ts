@@ -83,10 +83,16 @@ export default class MainContents extends Vue {
       mainText: "",
       mainTitle: "なにをしたか",
       prebLink: "/mainContents/action_2",
+      nextLink: "/mainContents/action_4"
+    },
+    action_4: {
+      mainText: "ちなみにこのスライドも Vue.js 製",
+      mainTitle: "なにをしたか",
+      prebLink: "/mainContents/action_3",
       nextLink: "/sectionTitle/result"
     },
     result_1: {
-      mainText: "今後の案件で Vue.js を採用することが決まった(というか決めた)",
+      mainText: "今後のアプリ開発は Vue.js を採用することが決まった(というか決めた)",
       mainTitle: "結果というか中間報告",
       prebLink: "/sectionTitle/result",
       nextLink: "/sectionTitle/hereafter"

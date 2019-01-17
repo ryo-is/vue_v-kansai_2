@@ -30,7 +30,7 @@ export default class SectionTitle extends Vue {
     },
     result: {
       mainText: "結果というか中間報告",
-      prebLink: "/mainContents/action_3",
+      prebLink: "/mainContents/action_4",
       nextLink: "/mainContents/result_1"
     },
     hereafter: {

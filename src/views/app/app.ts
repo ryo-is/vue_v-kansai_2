@@ -3,8 +3,22 @@ import router from "@/router";
 
 @Component({})
 export default class App extends Vue {
-  prebArrow: boolean = false;
-  nextArrow: boolean = false;
+  public prebArrow: boolean = false;
+  public nextArrow: boolean = false;
+  public colorMode: string = "default-mode";
+
+  public changeColorMode() {
+    switch (this.colorMode) {
+      case "default-mode":
+        this.colorMode = "dark-mode";
+        break;
+      case "dark-mode":
+        this.colorMode = "default-mode";
+        break;
+      default:
+        break;
+    }
+  }
 
   public transitionPage(action: string) {
     const targetRoute: string = this.$parent.$children[0].$children[1].$data
